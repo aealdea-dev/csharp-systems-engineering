@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementAPI", "UserManagementAPI\UserManagementAPI.csproj", "{85DA6431-06AF-4C4A-A1E9-E6E5C165FFAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShopInventoryAPI", "SmartShopInventoryAPI\SmartShopInventoryAPI.csproj", "{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{85DA6431-06AF-4C4A-A1E9-E6E5C165FFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85DA6431-06AF-4C4A-A1E9-E6E5C165FFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85DA6431-06AF-4C4A-A1E9-E6E5C165FFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

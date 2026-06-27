@@ -5,7 +5,11 @@ bin/
 obj/
 TestResults/
 *.log
-
+*idea*
+/.idea/
+/.idea/
+/.idea/.idea.csharp-systems-engineering/
+/.idea/.idea.csharp-systems-engineering/.idea/
 # ==============================
 # IDE & LOCAL WORKSPACE FILES
 # ==============================
@@ -33,3 +37,11 @@ Thumbs.db
 # ==============================
 *.env
 # appsettings.Development.json # (Uncomment if you add database passwords here later)
+
+
+# ==============================
+# DATABASES
+# ==============================
+*.db
+*.db-shm
+*.db-wal
