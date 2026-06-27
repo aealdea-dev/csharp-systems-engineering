@@ -1,0 +1,35 @@
+# ==============================
+# RUNTIME & BUILD OUTPUTS
+# ==============================
+bin/
+obj/
+TestResults/
+*.log
+
+# ==============================
+# IDE & LOCAL WORKSPACE FILES
+# ==============================
+# JetBrains Rider / ReSharper
+.idea/
+riderModule.iml
+_ReSharper.Caches/
+/packages/
+*.rsuser
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# ==============================
+# OS SPECIFIC
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# LOCAL SECRETS & CONFIG
+# ==============================
+*.env
+# appsettings.Development.json # (Uncomment if you add database passwords here later)
