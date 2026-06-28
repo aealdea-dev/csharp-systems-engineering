@@ -13,8 +13,8 @@ public class Supplier
     public required string SupplierName { get; set; }
     
     [Required]
-    public bool HasDelayedDelivers { get; set; }
+    public bool HasDelayedDeliveries { get; set; }
     
     //Relationship: A supplier provides many products
-    public ICollection<Product> Products { get; set; } = new List<Product>();    
+    public virtual ICollection<Product> Products { get; set; } = new List<Product>();    
 }

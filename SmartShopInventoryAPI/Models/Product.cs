@@ -29,7 +29,7 @@ public class Product
     [Required] 
     // Relationship: A product comes from one supplier
     public int SupplierId { get; set; }
-    public Supplier? Supplier { get; set; }
+    public virtual  Supplier? Supplier { get; set; }
 
 
 

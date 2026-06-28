@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SmartShopInventoryAPI.Data;
 
@@ -10,9 +11,11 @@ using SmartShopInventoryAPI.Data;
 namespace SmartShopInventoryAPI.Migrations
 {
     [DbContext(typeof(SmartShopDbContext))]
-    partial class SmartShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260628001124_UpdateNavigationProperties")]
+    partial class UpdateNavigationProperties
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.9");

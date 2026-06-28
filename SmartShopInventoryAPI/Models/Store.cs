@@ -12,7 +12,7 @@ public class Store
     public required string StoreLocation { get; set; }
     
     // Relationship: A store has many sales
-    public ICollection<Sale> Sales { get; set; } = new List<Sale>();
+    public virtual ICollection<Sale> Sales { get; set; } = new List<Sale>();
     
 
 
