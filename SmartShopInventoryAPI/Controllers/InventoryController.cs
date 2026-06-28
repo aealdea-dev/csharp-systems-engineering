@@ -101,6 +101,16 @@ public class InventoryController : ControllerBase
         
         
     }
+    [HttpGet("check-data")]
+    public async Task<IActionResult> CheckData()
+    {
+        var productCount = await _context.Products.CountAsync();
+        var saleCount = await _context.Sales.CountAsync();
+        return Ok(new { 
+            Products = productCount, 
+            Sales = saleCount 
+        });
+    }
 
 }
 
