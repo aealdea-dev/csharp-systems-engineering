@@ -1,47 +1,97 @@
 # ==============================
-# RUNTIME & BUILD OUTPUTS
+# .NET / ASP.NET CORE
 # ==============================
 bin/
 obj/
-TestResults/
-*.log
-*idea*
-/.idea/
-/.idea/
-/.idea/.idea.csharp-systems-engineering/
-/.idea/.idea.csharp-systems-engineering/.idea/
-# ==============================
-# IDE & LOCAL WORKSPACE FILES
-# ==============================
-# JetBrains Rider / ReSharper
-.idea/
-riderModule.iml
-_ReSharper.Caches/
-/packages/
-*.rsuser
-
-# Visual Studio / VS Code
+*.user
+*.userosscache
+*.sln.docstates
 .vs/
 .vscode/
-*.user
-*.suo
 
 # ==============================
-# OS SPECIFIC
+# BUILD & TEST OUTPUTS
 # ==============================
+TestResults/
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# IDE & LOCAL WORKSPACE
+# ==============================
+# JetBrains Rider
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS Specific
 .DS_Store
 Thumbs.db
 
 # ==============================
-# LOCAL SECRETS & CONFIG
+# LOCAL CONFIG & SECRETS
 # ==============================
 *.env
-# appsettings.Development.json # (Uncomment if you add database passwords here later)
-
-
-# ==============================
-# DATABASES
-# ==============================
+# Local database files (if you ever switch from InMemory)
 *.db
 *.db-shm
 *.db-wal
+*.sqlite
+*.sdf
+
+# ==============================
+# ASP.NET CORE SPECIFIC
+# ==============================
+# The following is excluded because it often contains connection strings 
+# or local secrets during development
+appsettings.Development.json
+
+
+# ==============================
+# RAZOR & ASP.NET UI ARTIFACTS
+# ==============================
+# Exclude compiled Razor views which are generated during build
+[Aa]spnet-core-generated/
+*.cshtml.g.cs
+*.cshtml.css
+*.cshtml.js
+
+# ==============================
+# DESIGN & GRAPHICS ASSETS
+# ==============================
+# Exclude design source files or temporary previews if present
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+*.tmp.png
+*.tmp.jpg
+
+# ==============================
+# WEB DEVELOPMENT CACHES
+# ==============================
+# Node/npm generated directories (if you adopt client-side build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# CSS/JS minification artifacts
+*.min.css
+*.min.js
+
+
+# ==============================
+# CLIENT-SIDE LIBRARIES
+# ==============================
+# Ignore all downloaded client-side libraries
+wwwroot/lib/
+
+# ==============================
+# CLIENT-SIDE LIBRARIES
+# ==============================
+# Exclude the lib folders for both project instances
+wwwroot/lib/
+**/wwwroot/lib/

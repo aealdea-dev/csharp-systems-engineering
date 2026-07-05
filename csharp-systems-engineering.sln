@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementAPI", "UserMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartShopInventoryAPI", "SmartShopInventoryAPI\SmartShopInventoryAPI.csproj", "{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionApp", "EncryptionApp\EncryptionApp.csproj", "{DA1B459A-467D-4946-88D5-E78C70A79576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAuthInMemoryApp", "UserAuthInMemoryApp\UserAuthInMemoryApp.csproj", "{1E00A519-FCB1-471B-80D6-F0FEE6A902DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8453FF99-F8AA-4C20-9CC5-8CF4039FF456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1B459A-467D-4946-88D5-E78C70A79576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1B459A-467D-4946-88D5-E78C70A79576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1B459A-467D-4946-88D5-E78C70A79576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1B459A-467D-4946-88D5-E78C70A79576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E00A519-FCB1-471B-80D6-F0FEE6A902DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E00A519-FCB1-471B-80D6-F0FEE6A902DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E00A519-FCB1-471B-80D6-F0FEE6A902DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E00A519-FCB1-471B-80D6-F0FEE6A902DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

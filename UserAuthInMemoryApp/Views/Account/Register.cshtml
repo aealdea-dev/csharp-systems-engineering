@@ -1,0 +1,20 @@
+@model UserAuthInMemoryApp.Models.RegisterViewModel
+
+<h2>Register</h2>
+
+<!-- Add this tag to show errors -->
+<div asp-validation-summary="All"></div>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span> <!-- Adds inline field validation -->
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span> <!-- Adds inline field validation -->
+    </div>
+    <button type="submit">Register</button>
+</form>
